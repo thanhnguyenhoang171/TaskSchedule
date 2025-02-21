@@ -1,0 +1,43 @@
+/* Input và Button */
+.todo-enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-enter input, 
+.todo-enter button {
+    height: 50px;
+}
+
+.todo-enter input {
+    width: 500px;
+}
+
+.todo-enter button {
+    width: 100px;
+}
+
+/* Căn giữa danh sách công việc */
+.todo-data  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: auto
+}
+
+.todo-data .ant-list {
+    border: 2px solid black; /* Viền đen */
+    border-radius: 8px; /* Bo góc nhẹ */
+    width: 100%;
+    max-width: 800px;
+
+}
+.todo-data .ant-list-item-meta-description {
+    color: black !important;
+}
+
+
